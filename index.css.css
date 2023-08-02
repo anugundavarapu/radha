@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #2874f0;
+    color: white;
+    padding: 10px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-left, .nav-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-center {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-left a, .nav-center a, .nav-right a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  .nav-left a:hover, .nav-center a:hover, .nav-right a:hover {
+    text-decoration: underline;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-right: 5px;
+    width: 250px;
+  }
+  
+  .search-bar button {
+    background-color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login, .become-seller, .cart {
+    background-color: blue;
+    color: #2874f0;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .login:hover, .become-seller:hover, .cart:hover {
+    background-color: blue;
+  }
+  
